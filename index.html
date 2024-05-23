@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Gustavo Silva Tiano</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+        .btn-github {
+            background-color: #333;
+        }
+        .btn-linkedin {
+            background-color: #0501fd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gustavo Silva Tiano</h1>
+    <a href="https://github.com/gustavodsilva/gravador.git" target="_blank" class="btn btn-github">Github</a>
+    <a href="https://www.linkedin.com/in/gustavodasilva83/" target="_blank" class="btn btn-linkedin">Linkedin</a>
+    <button onclick="openLinkedInMessagePopup()" class="btn btn-linkedin">Enviar mensagem no LinkedIn</button>
+
+    <script>
+        function openLinkedInMessagePopup() {
+            window.open('https://www.linkedin.com/in/gustavodasilva83/', '_blank');
+        }
+    </script>
+</body>
+</html>
